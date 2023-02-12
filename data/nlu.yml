@@ -1,91 +1,192 @@
 version: "3.1"
 
 nlu:
-- intent: greet
+- intent: xin_chao
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - Chào
+    - Chào bạn
+    - Xin chào!
+    - Chào bạn!
+    - Chào anh/chị!
+    - Hi, có ai đó không?
+    - Xin chào, có ai đó không?
 
-- intent: goodbye
+- intent: tam_biet
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - tạm biệt
+    - tạm biệt bạn
+    - tạm biệt anh/chị!
+    - Hẹn gặp lại!
+    - Cảm ơn, tạm biệt!
+    - Tạm biệt và hẹn gặp lại!
+    - Tạm biệt, cảm ơn bạn đã giúp tôi!
+    - Tạm biệt, hẹn gặp lại vào lần sau!
+    - Tạm biệt và chúc bạn một ngày tốt lành!
 
-- intent: affirm
+- intent: bo_25_1
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - Em có tham khảo thông tin được biết, khi nhập học vào trường thí sinh phải tham gia kiểm tra trình độ tiếng Anh đầu vào, việc này chỉ nhằm phân lớp học Tiếng Anh theo trình độ hay còn mang ý nghĩa tuyển sinh?
 
-- intent: deny
+- intent: bo_25_2
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - Em muốn hỏi về chương trình đào tạo đại trà và chất lượng cao? Học phí như thế nào?
+    - Sinh viên sau khi tốt nghiệp tại trường có cơ hội việc làm tốt không?
+    - Trường có hỗ trợ cho sinh viên thực tập tại doanh nghiệp không?
 
-- intent: mood_great
+- intent: bo_25_3
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - Vừa rồi em có thi học sinh giỏi cấp tỉnh (lớp 12) và đạt giải nhưng hiện tại sở vẫn chưa tổ chức trao giải thưởng nên vẫn chưa nhận được giấy khen để nộp vào hồ sơ xét tuyển, em có thể bổ sung GK được không?
+    - Kết quả cuộc thi đánh giá năng lực khi nào sẽ được công bố?
+    - Cách thức nhận kết quả cuộc thi đánh giá năng lực là gì?
 
-- intent: mood_unhappy
+- intent: bo_25_4
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - Em năm nay học lớp 12, nếu em trúng tuyển vào trường ĐHNN, ngành Ngôn ngữ Anh, có thể chọn thêm chương trình 2 là một ngôn ngữ khác để học luôn được không?
 
-- intent: bot_challenge
+- intent: bo_25_5
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - Cho em hỏi nộp học phí là nộp theo tín chỉ là như thế nào ạ? Nộp tiền học phí theo tín chỉ có phải nộp thêm gì ko ạ?
+
+- intent: bo_25_6
+  examples: |
+    - Nếu thí sinh đã trúng tuyển nhưng muốn đổi nguyện vọng có được đổi không, hoặc có thể không nhập học đế xét phương thức khác không?
+
+- intent: bo_25_7
+  examples: |
+    - Cho em hỏi có phải có kết quả cuộc thi đánh giá năng lực của Đại học Quốc gia TP HCM mới được xét tuyển vào trường ạ?
+
+- intent: bo_25_8
+  examples: |
+    - Cho em hỏi đối với hình thức ưu tiên xét tuyển, mỗi ngành sẽ có một mức điểm chuẩn khác nhau hay sẽ có một mức điểm chuẩn chung cho tất cả các ngành trong trường?
+
+- intent: bo_25_9
+  examples: |
+    - Em muốn đăng ký xét tuyển vào ngành Dược học, khi đăng ký em có thể chọn cả 2 phương thức xét điểm thi ĐGNL và xét học bạ THPT với 2 khối A và B được không?
+
+- intent: bo_25_10
+  examples: |
+    - Em có thể đăng ký 2 nguyện vọng tại 1 trường cho 1 ngành với 2 tổ hợp môn xét tuyển được không? Điểm chuẩn giữa các tổ hợp môn có khác nhau ko? Điểm xét tuyển giữa các tổ hợp cho một ngành có bằng nhau không ?
+
+- intent: bo_25_11
+  examples: |
+    - Em muốn ĐKXT vào ngành Giáo dục Mầm non vậy em có thể sử dụng kết quả điểm môn năng khiếu ở trường khác để nộp không
+    - Có thể sử dụng kết quả điểm môn năng khiếu ở trường khác để xét tuyển được không?
+    - Dùng kết quả điểm môn năng khiếu ở trường khác để xét tuyển được không?
+    - Dùng điểm môn năng khiếu của trường khác để xét tuyển được không?
+    - Sài điểm năng khiếu của trường khác để xét tuyển được không?
+
+- intent: bo_25_12
+  examples: |
+    - Thí sinh đã đăng ký dự thi môn năng khiếu của ĐHĐN có phải chọn 1 nguyện vọng có ngành năng khiếu trong các nguyện vọng đăng ký không ?
+    - Có phải chọn 1 nguyện vọng có ngành năng khiếu trong các nguyện vọng đăng ký khi đã thi môn năng khiếu không?
+    - Thi môn năng khiếu rồi thì phải có khi đăng ký nguyện vọng phải có ngành năng khiếu đúng không?
+    - Khi đăng ký nguyện vọng phải có ngành năng khiếu nếu đã thi môn năng khiếu phải không?
+
+- intent: bo_25_13
+  examples: |
+    - Em có xem thông tin trên website thấy thông tin về tuyển sinh riêng, phương thức này là thi tuyển hay xét tuyển, cách đăng ký như thế nào ạ?
+    - Đăng ký tuyển sinh riêng như thế nào ạ?
+    - Tuyển sinh riêng là sao ạ?
+    - Tuyển sinh riêng là thi tuyển hay xét tuyển ạ?
+
+- intent: bo_25_14
+  examples: |
+    - Thí sinh có các chứng chỉ tiếng Anh quốc tế có được quy đổi sang điểm để xét theo học bạ?
+    - Có chứng chỉ tiếng anh quốc tế có được đổi sang điểm để xét học bạ không?
+    - Xét học bạ có đổi chứng chỉ tiếng anh quốc tế sang điểm không?
+    - Khi xét tuyển học bạ thì lấy chứng chỉ tiếng anh quốc tế đổi sang điểm được không?
+
+- intent: bo_25_15
+  examples: |
+    - Nếu 1 thí sinh vừa ĐKXT bằng học bạ vừa ĐKXT bằng kết quả thi THPT thì có trúng tuyển cả không?
+    - Vừa ĐKXT bằng học bạ vừa ĐKXT bằng kết quả thi THPT thì có trúng tuyển cả không?
+    - Vừa ĐKXT bằng kết quả thi THPT vừa ĐKXT bằng học bạ thì có trúng tuyển cả không?
+    - Đăng ký xét tuyển bằng học bạ lẫn điểm thi THPT có trúng tuyển cả 2 không?
+
+- intent: bo_25_16
+  examples: |
+    - Việc xét tuyển vào từng ngành có phụ thuộc vào thứ tự ưu tiên của thí sinh khi ĐKXT?
+    - xét tuyển có phụ thuộc vào thứ tự nguyện vọng của thí sinh khi ĐKXT không?
+    - thứ tự nguyện vọng khi ĐKXT có ảnh hướng đến kết quả xét tuyển vào từng ngành không?
+    - xét tuyển vào ngành có phụ thuộc vào thứ tự ưu tiên của thí sinh khi ĐKXT?
+
+- intent: bo_25_17
+  examples: |
+    - Theo đề án tuyển sinh, khi nộp hồ sơ ĐKXT theo học bạ vào các ngành Sư phạm thí sinh phải có học lực lớp 12 xếp loại giỏi, vậy nếu bây giờ em đăng ký nhưng chưa có điểm học kỳ 2 thì sao ạ?
+    - Chưa có điểm học kỳ 2 có xét tuyển ngành sư phạm được không?
+    - xét tuyển ngành sư phạm mà chưa có điểm kỳ 2 có được không?
+    - Xét tuyển ngành sư phạm mà chưa có điểm kỳ 2 có bổ sung sau được không?
+
+- intent: bo_25_18
+  examples: |
+    - Thí sinh chưa có bằng tốt nghiệp THPT có thể nộp hồ sơ đăng ký xét tuyển theo hình thức xét học bạ được không ạ?
+    - chưa có bằng tốt nghiệp THPT có thể nộp hồ sơ đăng ký xét tuyển theo hình thức xét học bạ được không ạ?
+    - chưa có bằng tốt nghiệp THPT có thể nộp hồ sơ đăng ký xét tuyển được không?
+    - Bổ sung bằng tốt nghiệp THPT sau khi xét tuyển có được không?
+    - Có thể xét tuyển trước rồi bổ sung bằng tốt nghiệp THPT sau được không?
+    - Chưa có bằng có xét tuyển được không?
+
+- intent: bo_25_19
+  examples: |
+    - Khi đăng ký trực tuyến, nếu thí sinh chưa đăng ký hết 5 nguyện vọng, muốn đăng ký bổ sung các nguyện vọng còn lại được không?
+    - Muốn đăng ký bổ sung nguyện vọng khi chưa đủ 5 nguyện vọng được không?
+    - Đăng ký thêm nguyện vọng được không?
+    - Đăng ký bổ sung nguyện vọng được không?
+    - Có được đăng ký thêm nguyện vọng không?
+    - Đã đăng ký 3 nguyện vọng, đăng ký thêm nguyện vọng được không?
+    - Có được đăng ký bổ sung nguyện vọng không?
+
+- intent: bo_25_20
+  examples: |
+    - Em muốn hỏi cách tính điểm xét tuyển khi đăng ký xét theo học bạ THPT?
+    - Làm thế nào để tính điểm xét tuyển khi đăng ký xét theo học bạ THPT?
+    - Thông tin về tính toán điểm xét tuyển theo học bạ THPT?
+    - Xem xét tuyển là gì khi đăng ký theo học bạ THPT?
+    - Cách tính điểm xét tuyển trong quá trình đăng ký theo học bạ THPT?
+    - Những yếu tố cần lưu ý khi tính điểm xét tuyển theo học bạ THPT?
+
+- intent: bo_25_21
+  examples: |
+    - Khi nộp hồ sơ xét học bạ, nhưng vì chưa có học bạ em có thể nộp bảng điểm thay thế được không?
+    - Liệu có thể sử dụng bảng điểm thay vì hồ sơ xét học bạ không?
+    - Có thể nộp bảng điểm thay cho hồ sơ xét học bạ hay không?
+    - Làm sao để nộp bảng điểm thay thế cho hồ sơ xét học bạ?
+    - Cần gì để nộp bảng điểm thay vì hồ sơ xét học bạ?
+    - Có phải nộp bảng điểm thay vì hồ sơ xét học bạ có hợp lệ hay không?
+
+- intent: bo_25_22
+  examples: |
+    - Em đã tốt nghiệp năm không phải năm nay thì năm nay có thể xét học bạ vào trường được không?
+    - Có thể đăng ký xét học bạ năm nay không nếu tốt nghiệp năm không phải năm nay?
+    - Trường Đại học Sư phạm Kỹ thuật Đà Nẵng có yêu cầu năm tốt nghiệp gì khi xét học bạ?
+    - Trường Đại học Kinh tế và Đại học Ngoại ngữ có lấy điểm học bạ của năm tốt nghiệp không phải năm nay không?
+    - Tôi có thể đăng ký xét học bạ nếu tốt nghiệp năm không phải năm nay?
+    - Trường Đại học Sư phạm Kỹ thuật Đà Nẵng có quy định gì về năm tốt nghiệp khi xét học bạ?
+    - Trường Ngoại ngữ và Kinh tế cần năm tốt nghiệp THPT gì để xét học bạ?
+
+- intent: bo_25_23
+  examples: |
+    - Em có thế xét học bạ cả 3 trường thuộc ĐHĐN được không ạ?
+    - Em có thể xét học bạ vào 3 trường thuộc ĐHĐN cùng 1 lúc được không?
+    - Có thể chọn 3 trường thuộc ĐHĐN làm nguyện vọng đầu tiên được không?
+    - Em có thể đăng ký xét học bạ cả 3 trường trong ĐHĐN được không?
+    - Em có thể chọn nộp nguyện vọng cho nhiều trường trong ĐHĐN được không?
+    - Trong ĐHĐN, em có thể nộp nguyện vọng cho nhiều hơn 5 trường được không?
+
+- intent: bo_25_24
+  examples: |
+    - Theo thông báo tuyển sinh, thí sinh có thể đăng ký nhiều nguyện vọng (NV) ở các trường khác nhau, vậy mỗi trường em đăng ký tối đa 5 NV vào ĐH Sư phạm Kỹ thuật, 5 NV vào ĐH Kinh tế … được không ạ ?
+    - Tôi có thể đăng ký nhiều nguyện vọng tại nhiều trường khác nhau được không?
+    - Tôi có thể đăng ký 5 nguyện vọng vào ĐH Sư phạm Kỹ thuật và 5 nguyện vọng vào ĐH Kinh tế được không?
+    - Nếu tôi đăng ký nhiều nguyện vọng, sẽ được chấp nhận tất cả không?
+    - Nếu tôi đăng ký nhiều nguyện vọng, tôi sẽ được chấp nhận vào nguyện vọng nào?
+    - Tôi có thể đăng ký nhiều nguyện vọng và trúng tuyển vào tất cả không?
+
+- intent: bo_25_25
+  examples: |
+    - Em muốn nộp hồ sơ ĐKXT theo học bạ, cách thức nộp hồ sơ như thế nào? Em có thể nộp trực tiếp được không ạ?
+    - Tôi muốn đăng ký theo học bạ tại trường Đại học Đà Nẵng, làm thế nào để nộp hồ sơ?
+    - Tôi có thể nộp hồ sơ ĐKXT trực tiếp tại trường không?
+    - Cách thức nộp hồ sơ ĐKXT theo học bạ tại Đại học Đà Nẵng là gì?
+    - Làm sao để nộp hồ sơ ĐKXT theo học bạ tại Đại học Đà Nẵng?
+    - Tôi muốn tìm hiểu về quy trình nộp hồ sơ ĐKXT theo học bạ tại trường Đại học Đà Nẵng.

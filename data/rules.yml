@@ -2,12 +2,137 @@ version: "3.1"
 
 rules:
 
+- rule: Say hello anytime the user says hello
+  steps:
+  - intent: xin_chao
+  - action: utter_xin_chao
+
 - rule: Say goodbye anytime the user says goodbye
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: tam_biet
+  - action: utter_tam_biet
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: Say bo_25_1 anytime the user says bo_25_1
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: bo_25_1
+  - action: utter_bo_25_1
+
+- rule: Say bo_25_2 anytime the user says bo_25_2
+  steps:
+  - intent: bo_25_2
+  - action: utter_bo_25_2
+
+- rule: Say bo_25_3 anytime the user says bo_25_3
+  steps:
+  - intent: bo_25_3
+  - action: utter_bo_25_3
+
+- rule: Say bo_25_4 anytime the user says bo_25_4
+  steps:
+  - intent: bo_25_4
+  - action: utter_bo_25_4
+
+- rule: Say bo_25_5 anytime the user says bo_25_5
+  steps:
+  - intent: bo_25_5
+  - action: utter_bo_25_5
+
+- rule: Say bo_25_6 anytime the user says bo_25_6
+  steps:
+  - intent: bo_25_6
+  - action: utter_bo_25_6
+
+- rule: Say bo_25_7 anytime the user says bo_25_7
+  steps:
+  - intent: bo_25_7
+  - action: utter_bo_25_7
+
+- rule: Say bo_25_8 anytime the user says bo_25_8
+  steps:
+  - intent: bo_25_8
+  - action: utter_bo_25_8
+
+- rule: Say bo_25_9 anytime the user says bo_25_9
+  steps:
+  - intent: bo_25_9
+  - action: utter_bo_25_9
+
+- rule: Say bo_25_10 anytime the user says bo_25_10
+  steps:
+  - intent: bo_25_10
+  - action: utter_bo_25_10
+
+- rule: Say bo_25_11 anytime the user says bo_25_11
+  steps:
+  - intent: bo_25_11
+  - action: utter_bo_25_11
+
+- rule: Say bo_25_12 anytime the user says bo_25_12
+  steps:
+  - intent: bo_25_12
+  - action: utter_bo_25_12
+
+- rule: Say bo_25_13 anytime the user says bo_25_13
+  steps:
+  - intent: bo_25_13
+  - action: utter_bo_25_13
+
+- rule: Say bo_25_14 anytime the user says bo_25_14
+  steps:
+  - intent: bo_25_14
+  - action: utter_bo_25_14
+
+- rule: Say bo_25_15 anytime the user says bo_25_15
+  steps:
+  - intent: bo_25_15
+  - action: utter_bo_25_15
+
+- rule: Say bo_25_16 anytime the user says bo_25_16
+  steps:
+  - intent: bo_25_16
+  - action: utter_bo_25_16
+
+- rule: Say bo_25_17 anytime the user says bo_25_17
+  steps:
+  - intent: bo_25_17
+  - action: utter_bo_25_17
+
+- rule: Say bo_25_18 anytime the user says bo_25_18
+  steps:
+  - intent: bo_25_18
+  - action: utter_bo_25_18
+
+- rule: Say bo_25_19 anytime the user says bo_25_19
+  steps:
+  - intent: bo_25_19
+  - action: utter_bo_25_19
+
+- rule: Say bo_25_20 anytime the user says bo_25_20
+  steps:
+  - intent: bo_25_20
+  - action: utter_bo_25_20
+
+- rule: Say bo_25_21 anytime the user says bo_25_21
+  steps:
+  - intent: bo_25_21
+  - action: utter_bo_25_21
+
+- rule: Say bo_25_22 anytime the user says bo_25_22
+  steps:
+  - intent: bo_25_22
+  - action: utter_bo_25_22
+
+- rule: Say bo_25_23 anytime the user says bo_25_23
+  steps:
+  - intent: bo_25_23
+  - action: utter_bo_25_23
+
+- rule: Say bo_25_24 anytime the user says bo_25_24
+  steps:
+  - intent: bo_25_24
+  - action: utter_bo_25_24
+
+- rule: Say bo_25_25 anytime the user says bo_25_25
+  steps:
+  - intent: bo_25_25
+  - action: utter_bo_25_25
