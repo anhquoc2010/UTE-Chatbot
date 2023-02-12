@@ -1,33 +1,148 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - xin_chao
+  - tam_biet
+  - bo_25_1
+  - bo_25_2
+  - bo_25_3
+  - bo_25_4
+  - bo_25_5
+  - bo_25_6
+  - bo_25_7
+  - bo_25_8
+  - bo_25_9
+  - bo_25_10
+  - bo_25_11
+  - bo_25_12
+  - bo_25_13
+  - bo_25_14
+  - bo_25_15
+  - bo_25_16
+  - bo_25_17
+  - bo_25_18
+  - bo_25_19
+  - bo_25_20
+  - bo_25_21
+  - bo_25_22
+  - bo_25_23
+  - bo_25_24
+  - bo_25_25
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_xin_chao:
+  - text: "Xin chào!"
+  - text: "Chào mừng đến với trường Đại học Sư phạm Kỹ thuật - Đại học Đà Nẵng!"
+  - text: "Chúng tôi có thể giúp gì cho bạn hôm nay?"
+  - text: "Chào bạn, chúng tôi có thể giúp gì cho bạn?"
+  - text: "Chào mừng đến với trường Đại học Sư phạm Kỹ thuật  - Đại học Đà Nẵng! Chúng tôi có thể giúp gì cho bạn hôm nay?"
+  - text: "Chào mừng bạn đến với trường Đại học Sư phạm Kỹ thuật  - Đại học Đà Nẵng! Chúng tôi có thể giúp gì cho bạn?"
+  - text: "Chào bạn, chúng tôi có thể hỗ trợ gì cho bạn hôm nay?"
+  - text: "Chào mừng bạn đến với trường Đại học Sư phạm Kỹ thuật  - Đại học Đà Nẵng! Chúng tôi sẵn sàng hỗ trợ bạn."
+  - text: "Xin chào, chúng tôi là trường Đại học Sư phạm Kỹ thuật  - Đại học Đà Nẵng! Bạn cần giúp gì hôm nay?"
+  - text: "Chào bạn, chúng tôi là trường Đại học Sư phạm Kỹ thuật  - Đại học Đà Nẵng! Chúng tôi sẵn sàng trả lời tất cả câu hỏi của bạn."
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_tam_biet:
+  - text: "Tạm biệt!"
+  - text: "Hẹn gặp lại!"
+  - text: "Cảm ơn bạn trò chuyện. Tạm biệt!"
+  - text: "Cảm ơn bạn đã giúp đỡ. Hẹn gặp lại!"
+  - text: "Chúc bạn một ngày tốt lành. Tạm biệt!"
+  - text: "Cảm ơn bạn đã trò chuyện với chúng tôi. Tạm biệt!"
+  - text: "Hẹn gặp lại sau. Tạm biệt!"
+  - text: "Nếu bạn cần giúp đỡ, hãy quay lại trò chuyện với chúng tôi. Tạm biệt!"
+  - text: "Chúc bạn một ngày tốt đẹp. Tạm biệt!"
+  - text: "Cảm ơn bạn đã trò chuyện với chúng tôi. Hẹn gặp lại sau."
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_bo_25_1:
+  - text: "Việc kiểm tra trình độ tiếng Anh là để xếp lớp học Tiếng Anh theo trình độ, không ảnh hưởng đến kết quả tuyển sinh. Tuy nhiên, trình độ tiếng Anh là yêu cầu bắt buộc trong quá trình học tại trường và xét điều kiện tốt nghiệp."
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_bo_25_2:
+  - text: "Học phí theo quy định của Chính phủ: Chương trình truyền thống học phí thấp hơn, chương trình CLC học phí gấp khoảng 2.5 lần so với chương trình tuyền thống. Khi tham gia học CLC, sinh viên sẽ được hỗ trợ về CSVC, giảng viên được đào tạo ở nước ngoài, được tăng cường bổ trợ về Ngoại ngữ trong quá trình đào tạo."
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_bo_25_3:
+  - text: "Em có thể chờ nhận GK từ Sở GDĐT rồi nộp hồ sơ, vì thời gian đăng ký từ 15/4 – 15/6 mới hết hạn. Nếu em đăng ký xét tuyển theo phương thức tuyển sinh riêng thì em tra cứu thông tin trên trang web riêng của từng CSĐT để xem hướng dẫn cụ thể trên các thông báo liên quan."
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_bo_25_4:
+  - text: "Sinh viên được đăng ký học chương trình thứ hai sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất.
+  Tại thời điểm đăng ký, sinh viên phải đáp ứng 01 trong 02 điều kiện sau và các điều kiện khác của cơ sở đào tạo được quy định tại khoản 3 Điều 18 Thông tư 08/2021/TT-BGDĐT Quy định đào tạo đại học:
+  - Học lực tính theo điểm trung bình tích lũy xếp loại khá trở lên và đáp ứng ngưỡng bảo đảm chất lượng của chương trình thứ hai trong năm tuyển sinh;
+  - Học lực tính theo điểm trung bình tích lũy xếp loại trung bình và đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh."
+
+  utter_bo_25_5:
+  - text: "Việc nộp học phí theo tín chỉ (từ 10-30) có quy định cụ thể ở mỗi trường. Ngoài nộp học phí tín chỉ, có một số phí thêm như: bảo hiểm y tế, học tập môn GDQP, trang trải Kí túc xá ... (Tín chỉ là đơn vị dùng để đo lường khối lượng học tập. Một tín chỉ được quy định bằng 15 tiết học lý thuyết, 30 tiết thực hành, thí nghiệm hoặc thảo luận, bằng 60 giờ thực tập tại cơ sở hoặc bằng 45 giờ làm tiểu luận, bài tập lớn, đồ án hoặc khoá luận tốt nghiệp)."
+
+  utter_bo_25_6:
+  - text: "Thí sinh đã trúng tuyển không được đổi nguyện vọng, nếu Thí sinh không xác nhận nhập học thì có thể đăng ký xét tuyển phương thức khác, hoặc đợt bổ sung (nếu có) vào các ngành khác còn chỉ tiêu."
+
+  utter_bo_25_7:
+  - text: "Năm 2021, ĐHĐN và các đơn vị thành viên đã thống nhất lựa chọn 4 phương thức tuyển sinh áp dụng cho năm nay như sau:
+  1) theo kết quả thi THPT, (2) theo học bạ THPT, (3) theo kết quả kỳ thi đánh giá năng lực do Đại học Quốc gia Thành phố Hồ Chí Minh tổ chức, (4) tuyển sinh riêng theo đề án của các trường
+  Ngoài ra, các trường còn thực hiện xét tuyển thẳng theo quy chế tuyển sinh của Bộ GDĐT
+  Như vậy, xét tuyển theo kết quả kỳ thi đánh giá năng lực là một trong những hình thức được ĐHĐN áp dụng trong tuyển sinh đại học năm nay."
+
+  utter_bo_25_8:
+  - text: "Đối với tuyển sinh các ngành trong ĐHĐN, điểm chuẩn theo ngành, một số CSĐT có chuyên ngành thì khi thí sinh nhập học sẽ xét vào chuyên ngành sau."
+
+  utter_bo_25_9:
+  - text: "Khoa Y Dược, ĐHĐN xét tuyển theo kết quả thi THPT và xét điểm học bạ, không xét điểm thi ĐGNL. Em có thể đăng ký xét tuyển 2 phương thức với 2 tổ hợp môn (A00) Toán + Lý + Hóa và B00 (Toán + Hóa + Sinh) nhưng chỉ được chọn 1 nguyện vọng nếu trúng tuyển để nhập học."
+
+  utter_bo_25_10:
+  - text: "Em có thể đăng ký 1 ngành với nhiều tổ hợp môn xét tuyển (tối đa 4 tổ hợp môn xét tuyển). ĐHĐN xét chung mức điểm trúng tuyển cho cùng 1 ngành/nhóm ngành với các tổ hợp môn xét tuyển khác nhau.
+  Một ngành có nhiều tổ hợp xét tuyển, điểm xét tuyển giữa các tổ hợp có thể khác nhau, tùy đặc điểm riêng của từng ngành.
+  Ví dụ: Ngành Sư phạm tiếng Pháp xét tuyển các tổ hợp:
+  -        Toán + Ngữ văn + Tiếng Anh*2
+  -        Toán + Ngữ văn + Tiếng Pháp*2
+  -        Toán + Địa lý + Tiếng Anh*2
+  -        Ngữ văn + Địa lý + Tiếng Anh*2
+  Trong đó tổ hợp Toán + Ngữ văn + Tiếng Pháp *2  điểm chuẩn thấp hơn các tổ hợp khác 0.5 điểm sau khi quy về thang điểm 30."
+
+  utter_bo_25_11:
+  - text: "Tuyển sinh năm 2021, những ngành đào tạo chính quy có thi năng khiếu tại các trường thành viên của ĐHĐN (VD: SP âm nhạc, GD Mầm non, Kiến trúc, GD Thể chất), thí sinh phải đăng ký dự thi môn năng khiếu do ĐHĐN tổ chức. ĐHĐN không sử dụng kết quả thi của trường khác"
+
+  utter_bo_25_12:
+  - text: "Thí sinh đã đăng ký dự thi môn năng khiếu của ĐHĐN phải chọn 1 nguyện vọng có ngành năng khiếu tương ứng với môn năng khiếu đã đăng ký dự thi trong các nguyện vọng đăng ký của mình để được xét tuyển
+  Ví dụ: Thí sinh đăng ký dự thi môn Vẽ mĩ thuật của ĐHĐN, trong các nguyện vọng đăng ký xét tuyển nhất thiết phải chọn một nguyện vọng là ngành Kiến trúc của Trường Đại học Bách khoa – ĐHĐN (nếu có nguyện vọng), hoặc một ngành của trường khác có sử dụng kết quả thi năng khiếu của ĐHĐN"
+
+  utter_bo_25_13:
+  - text: "Đối với phương thức tuyển sinh riêng, các CSĐT khác nhau sẽ có thông báo về đối tượng và các tiêu chí phụ để xét, để đăng ký hồ sơ xét vào CSĐT nào thì em tham khảo thông tin tuyển sinh cụ thể của từng đơn vị để làm hồ sơ."
+
+  utter_bo_25_14:
+  - text: "Thí sinh có chứng chỉ tiếng Anh quốc tế không được quy đổi sang điểm để xét theo học bạ. Thí sinh có thể sử dụng các chứng chỉ này để ĐKXT theo phương thức tuyển sinh riêng của các CSĐT, thông tin chi tiết trên trang tuyển sinh của ĐHĐN và trang thông tin của các CSĐT."
+
+  utter_bo_25_15:
+  - text: "Thí sinh chỉ có thể trúng tuyển 1 trong 2 hình thức xét tuyển. Xét tuyển học bạ Đợt 1 được tiến hành trước xét tuyển bằng kết quả thi THPT Đợt 1. Nếu thí sinh trúng tuyển xét học bạ nhưng không xác nhận nhập học trong thời gian qui định của ĐHĐN thì được xem như từ chối kết quả trúng tuyển và có quyền xét tuyển theo kết quả thi THPT. Nếu thí sinh trúng tuyển xét học bạ và xác nhận nhập học trong thời gian qui định của ĐHĐN thì thí sinh bị loại tên khỏi danh sách xét tuyển theo kết quả thi THPT trên toàn quốc."
+
+  utter_bo_25_16:
+  - text: "Đối với từng ngành, các thí sinh được xét tuyển bình đẳng theo điểm xét tuyển, không phân biệt thứ tự ưu tiên của nguyện vọng đăng ký."
+
+  utter_bo_25_17:
+  - text: "Em vẫn có thể đăng ký xét tuyển và bổ sung kết quả học tập lớp 12 vào thời điểm thích hợp theo thông báo của ĐHĐN. Thí sinh theo dõi thông tin trên trang tuyển sinh của ĐHĐN để biết thêm thông tin. "
+
+  utter_bo_25_18:
+  - text: "Thí sinh có thể nộp hồ sơ ĐKXT khi chưa có chứng nhận tốt nghiệp tạm thời; ĐHĐN sẽ thông báo nộp bổ sung minh chứng tốt nghiệp THPT vào thời điểm thích hợp."
+
+  utter_bo_25_19:
+  - text: "Mỗi thí sinh chỉ được đăng ký 01 lần theo số CMND/CCCD. Thí sinh không bổ sung nguyện vọng đăng ký, không điều chỉnh nguyện vọng sau khi đã xác nhận nộp hồ sơ trên hệ thống. Vì vậy, em chỉ có thể bổ sung thêm thông tin khi chưa xác nhận nộp hồ sơ."
+
+  utter_bo_25_20:
+  - text: "Điểm xét tuyển là tổng điểm các môn học/môn thi năng khiếu theo thang điểm 10 cộng với điểm ưu tiên khu vực, ưu tiên đối tượng theo qui định của Qui chế tuyển sinh, được làm tròn đến hai chữ số thập phân. Điểm môn học trong tổ hợp xét tuyển là trung bình cộng điểm môn học lớp 10, lớp 11 và học kỳ I lớp 12. Đối với các thí sinh bằng điểm xét tuyển ở cuối danh sách thì xét trúng tuyển theo tiêu chí phụ đã quy định, nếu vẫn còn vượt chỉ tiêu thì ưu tiên cho thí sinh có nguyện vọng cao hơn"
+
+  utter_bo_25_21:
+  - text: "Em có thể nộp bảng điểm thay cho học bạ nhưng phải có xác nhận của Ban giám hiệu và con dấu của nhà trường thì mới hợp lệ."
+
+  utter_bo_25_22:
+  - text: "Theo Đề án của các CSĐT thuộc ĐHĐN nếu không yêu cầu năm tốt nghiệp thì em có thể đăng ký xét học bạ. Riêng đối với trường ĐH Kinh tế và ĐH Ngoại ngữ chỉ lấy điểm học bạ của thí sinh tốt nghiệp năm xét tuyển"
+
+  utter_bo_25_23:
+  - text: "Theo thông báo, thí sinh được quyền nộp 5 nguyện vọng cùng 1 trường hoặc các trường khác nhau trong ĐHĐN, nhưng em lưu ý đối với trường ĐH Kinh tế và ĐH Ngoại ngữ chỉ xét thí sinh tốt nghiệp THPT năm xét tuyển."
+
+  utter_bo_25_24:
+  - text: "Đối với mỗi thí sinh, nếu đăng ký xét tuyển vào nhiều ngành thì việc xét tuyển được thực hiện theo thứ tự ưu tiên. Thí sinh chỉ trúng tuyển vào 01 nguyện vọng ưu tiên cao nhất trong danh sách các nguyện vọng đã đăng ký. Các nguyện vọng không đầy đủ thông tin hoặc thông tin không chính xác sẽ không được xét."
+
+  utter_bo_25_25:
+  - text: "Thí sinh đăng ký bằng hình thức trực tuyến trên trang tuyển sinh của Đại học Đà Nẵng (ĐHĐN) tại địa chỉ ts.udn.vn. Trong trường hợp không có điều kiện đăng ký trực tuyến, Thí sinh có thể đến trực tiếp các cơ sở đào tạo (CSĐT) để thực hiện việc ĐKXT trực tiếp tại trường, tại các CSĐT sẽ có bộ phận phục vụ công tác tuyển sinh trực hỗ trợ."
+
 
 session_config:
   session_expiration_time: 60
