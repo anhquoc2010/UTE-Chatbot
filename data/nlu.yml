@@ -26,46 +26,92 @@ nlu:
 - intent: bo_25_1
   examples: |
     - Em có tham khảo thông tin được biết, khi nhập học vào trường thí sinh phải tham gia kiểm tra trình độ tiếng Anh đầu vào, việc này chỉ nhằm phân lớp học Tiếng Anh theo trình độ hay còn mang ý nghĩa tuyển sinh?
+    - Kết quả kiểm tra trình độ tiếng Anh có ảnh hưởng đến việc tuyển sinh không?
+    - Trình độ tiếng Anh có phải là yêu cầu bắt buộc trong quá trình tuyển sinh không?
+    - Trình độ tiếng Anh có quan trọng trong việc xếp lớp học không?
+    - Kết quả kiểm tra trình độ tiếng Anh có liên quan đến việc xét điều kiện tốt nghiệp không?
+    - Trình độ tiếng Anh có phải là yêu cầu bắt buộc trong quá trình học tập tại trường không?
 
 - intent: bo_25_2
   examples: |
     - Em muốn hỏi về chương trình đào tạo đại trà và chất lượng cao? Học phí như thế nào?
     - Sinh viên sau khi tốt nghiệp tại trường có cơ hội việc làm tốt không?
     - Trường có hỗ trợ cho sinh viên thực tập tại doanh nghiệp không?
+    - So sánh học phí giữa chương trình truyền thống và chương trình CLC là bao nhiêu?
+    - Sinh viên tham gia chương trình CLC có được hỗ trợ gì không?
+    - Giảng viên trong chương trình CLC được đào tạo tại đâu?
+    - Học phí theo quy định của ai?
+    - Sinh viên tham gia chương trình CLC có được tăng cường bổ trợ về Ngoại ngữ không?
 
 - intent: bo_25_3
   examples: |
     - Vừa rồi em có thi học sinh giỏi cấp tỉnh (lớp 12) và đạt giải nhưng hiện tại sở vẫn chưa tổ chức trao giải thưởng nên vẫn chưa nhận được giấy khen để nộp vào hồ sơ xét tuyển, em có thể bổ sung GK được không?
     - Kết quả cuộc thi đánh giá năng lực khi nào sẽ được công bố?
     - Cách thức nhận kết quả cuộc thi đánh giá năng lực là gì?
+    - Khi nào hạn đăng ký xét tuyển vào trường đại học?
+    - Em có thể đăng ký xét tuyển khi chưa nhận được GK hay không?
+    - Em phải nộp hồ sơ như thế nào khi đăng ký xét tuyển theo phương thức tuyển sinh riêng?
+    - Có thông báo liên quan tới đăng ký xét tuyển theo phương thức tuyển sinh riêng không?
 
 - intent: bo_25_4
   examples: |
     - Em năm nay học lớp 12, nếu em trúng tuyển vào trường ĐHNN, ngành Ngôn ngữ Anh, có thể chọn thêm chương trình 2 là một ngôn ngữ khác để học luôn được không?
+    - Làm sao để đăng ký chương trình thứ hai?
+    - Sinh viên cần đáp ứng những điều kiện gì để đăng ký chương trình thứ hai?
+    - Khi nào sinh viên có thể đăng ký chương trình thứ hai?
+    - Điểm trung bình tích lũy phải xếp loại như thế nào để đáp ứng điều kiện đăng ký chương trình thứ hai?
 
 - intent: bo_25_5
   examples: |
     - Cho em hỏi nộp học phí là nộp theo tín chỉ là như thế nào ạ? Nộp tiền học phí theo tín chỉ có phải nộp thêm gì ko ạ?
+    - Làm sao để biết học phí theo tín chỉ tại trường đại học của tôi?
+    - Nộp học phí theo tín chỉ có cần phải nộp cho mỗi môn học không?
+    - Phí bảo hiểm y tế cần nộp cho mỗi năm học?
+    - Tín chỉ là gì và cách tính số tín chỉ cần học cho mỗi môn học?
+    - Trang trải Kí túc xá cần nộp cho mỗi năm học hay mỗi kì học?
 
 - intent: bo_25_6
   examples: |
     - Nếu thí sinh đã trúng tuyển nhưng muốn đổi nguyện vọng có được đổi không, hoặc có thể không nhập học đế xét phương thức khác không?
+    - Liệu Thí sinh có thể đổi nguyện vọng sau khi trúng tuyển?
+    - Nếu Thí sinh không xác nhận nhập học, có thể xét tuyển phương thức khác không?
+    - Có phải Thí sinh có thể đăng ký xét tuyển phương thức khác nếu không xác nhận nhập học không?
+    - Có tồn tại đợt bổ sung vào các ngành khác sau khi trúng tuyển không?
+    - Thí sinh trúng tuyển vào một ngành nào đó, có thể chuyển sang ngành khác không?
 
 - intent: bo_25_7
   examples: |
     - Cho em hỏi có phải có kết quả cuộc thi đánh giá năng lực của Đại học Quốc gia TP HCM mới được xét tuyển vào trường ạ?
+    - ĐHĐN áp dụng bao nhiêu phương thức tuyển sinh?
+    - Danh sách các phương thức tuyển sinh ĐHĐN năm 2021 bao gồm những hình thức nào?
+    - ĐHĐN có thực hiện xét tuyển thẳng theo quy chế của Bộ GDĐT không?
 
 - intent: bo_25_8
   examples: |
     - Cho em hỏi đối với hình thức ưu tiên xét tuyển, mỗi ngành sẽ có một mức điểm chuẩn khác nhau hay sẽ có một mức điểm chuẩn chung cho tất cả các ngành trong trường?
+    - Làm thế nào để xác định điểm chuẩn theo ngành trong tuyển sinh ĐHĐN?
+    - Có bao nhiêu ngành có chuyên ngành trong ĐHĐN?
+    - Liệu có thể xét vào chuyên ngành khi chưa đạt điểm chuẩn?
+    - Tôi có thể nhập học vào một ngành khác nếu không đạt điểm chuẩn của chuyên ngành mình muốn không?
+    - Có phải tất cả các trường ĐHĐN có chuyên ngành không?
 
 - intent: bo_25_9
   examples: |
     - Em muốn đăng ký xét tuyển vào ngành Dược học, khi đăng ký em có thể chọn cả 2 phương thức xét điểm thi ĐGNL và xét học bạ THPT với 2 khối A và B được không?
+    - Có thể đăng ký xét tuyển vào Khoa Y Dược bằng cách nào khác ngoài kết quả thi THPT và xét điểm học bạ không?
+    - Liệu điểm thi ĐGNL có được tính vào quyết định tuyển sinh hay không?
+    - Em có thể đăng ký xét tuyển vào nhiều chuyên ngành khác nhau trong Khoa Y Dược ĐHĐN không?
+    - Có những yêu cầu nào cần phải đáp ứng để đăng ký xét tuyển vào Khoa Y Dược ĐHĐN?
+    - Nếu trúng tuyển, em có thể chuyển sang học một chuyên ngành khác sau này hay không?
 
 - intent: bo_25_10
   examples: |
     - Em có thể đăng ký 2 nguyện vọng tại 1 trường cho 1 ngành với 2 tổ hợp môn xét tuyển được không? Điểm chuẩn giữa các tổ hợp môn có khác nhau ko? Điểm xét tuyển giữa các tổ hợp cho một ngành có bằng nhau không ?
+    - Em có thể đăng ký tuyển vào nhiều ngành khác nhau trong cùng một lần xét tuyển hay không?
+    - Nếu đăng ký xét tuyển với nhiều tổ hợp môn, em sẽ được chọn 1 tổ hợp môn nào để nhập học nếu trúng tuyển?
+    - Mức điểm trúng tuyển của từng tổ hợp môn xét tuyển có thể khác nhau hay là giống nhau?
+    - Em cần phải đạt điểm cao hơn so với mức điểm trúng tuyển nếu muốn đăng ký xét tuyển với nhiều tổ hợp môn khác nhau?
+    - Liệu việc đăng ký xét tuyển với nhiều tổ hợp môn có tăng cơ hội trúng tuyển hay không?
 
 - intent: bo_25_11
   examples: |
